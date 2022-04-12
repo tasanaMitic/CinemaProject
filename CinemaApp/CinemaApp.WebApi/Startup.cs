@@ -6,8 +6,6 @@ using CinemaApp.Common.Interfaces;
 using CinemaApp.Services.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -28,6 +26,10 @@ namespace CinemaApp.WebApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddScoped<IUserService>(serviceProvider => new UserService());
+            services.AddScoped<IFilmService>(serviceProvider => new FilmService());
+            services.AddScoped<ICinemaHallService>(serviceProvider => new CinemaHallService());
+            services.AddScoped<IProjectionService>(serviceProvider => new ProjectionService());
+            services.AddScoped<ITicketService>(serviceProvider => new TicketService());
 
             services.AddControllers();
         }

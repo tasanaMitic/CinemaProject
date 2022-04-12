@@ -1,9 +1,4 @@
-﻿using CinemaApp.Common.Enums;
-using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace CinemaApp.Common.Dtos
+﻿namespace CinemaApp.Common.Dtos
 {
     public class UserDto
     {

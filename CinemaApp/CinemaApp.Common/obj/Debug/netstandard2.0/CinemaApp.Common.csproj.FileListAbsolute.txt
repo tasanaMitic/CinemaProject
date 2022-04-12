@@ -7,3 +7,12 @@ D:\CinemaApp\CinemaApp.Common\obj\Debug\netstandard2.0\CinemaApp.Common.Assembly
 D:\CinemaApp\CinemaApp.Common\obj\Debug\netstandard2.0\CinemaApp.Common.AssemblyInfo.cs
 D:\CinemaApp\CinemaApp.Common\obj\Debug\netstandard2.0\CinemaApp.Common.dll
 D:\CinemaApp\CinemaApp.Common\obj\Debug\netstandard2.0\CinemaApp.Common.pdb
+D:\CinemaProject\CinemaApp\CinemaApp.Common\bin\Debug\netstandard2.0\CinemaApp.Common.deps.json
+D:\CinemaProject\CinemaApp\CinemaApp.Common\bin\Debug\netstandard2.0\CinemaApp.Common.dll
+D:\CinemaProject\CinemaApp\CinemaApp.Common\bin\Debug\netstandard2.0\CinemaApp.Common.pdb
+D:\CinemaProject\CinemaApp\CinemaApp.Common\obj\Debug\netstandard2.0\CinemaApp.Common.csprojAssemblyReference.cache
+D:\CinemaProject\CinemaApp\CinemaApp.Common\obj\Debug\netstandard2.0\CinemaApp.Common.csproj.CoreCompileInputs.cache
+D:\CinemaProject\CinemaApp\CinemaApp.Common\obj\Debug\netstandard2.0\CinemaApp.Common.AssemblyInfoInputs.cache
+D:\CinemaProject\CinemaApp\CinemaApp.Common\obj\Debug\netstandard2.0\CinemaApp.Common.AssemblyInfo.cs
+D:\CinemaProject\CinemaApp\CinemaApp.Common\obj\Debug\netstandard2.0\CinemaApp.Common.dll
+D:\CinemaProject\CinemaApp\CinemaApp.Common\obj\Debug\netstandard2.0\CinemaApp.Common.pdb

@@ -5,29 +5,24 @@ using System.Collections.Generic;
 
 namespace CinemaApp.Services.Services
 {
-    public class UserService : IUserService
+    public class FilmService : IFilmService
     {
-        public Guid AddUser(UserDto user)
+        public Guid AddFilm(FilmDto film)
         {
             throw new NotImplementedException();
         }
 
-        public bool DeleteUser(Guid id)
+        public bool DeleteFilm(Guid id)
         {
             throw new NotImplementedException();
         }
 
-        public IEnumerable<UserDtoId> GetAllUsers(string userRole)
+        public IEnumerable<FilmDtoId> GetAllFilms()
         {
             throw new NotImplementedException();
         }
 
-        public IEnumerable<UserDtoId> SearchUsers(string username, string userRole)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void UpdateUser(Guid id, UserDto client)
+        public IEnumerable<FilmDtoId> SearchFilms(string criteria)
         {
             throw new NotImplementedException();
         }

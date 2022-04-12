@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace CinemaApp.Common.Dtos
+{
+    public class ProjectionDto
+    {
+        public string Date { get; set; }
+        public string Time { get; set; }
+        public bool SoldOut { get; set; }
+        public Guid FilmId { get; set; }
+        public Guid CinemaHallId { get; set; }
+    }
+}
