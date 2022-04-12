@@ -1,0 +1,12 @@
+D:\CinemaApp\CinemaApp.Services\bin\Debug\netstandard2.0\CinemaApp.Services.deps.json
+D:\CinemaApp\CinemaApp.Services\bin\Debug\netstandard2.0\CinemaApp.Services.dll
+D:\CinemaApp\CinemaApp.Services\bin\Debug\netstandard2.0\CinemaApp.Services.pdb
+D:\CinemaApp\CinemaApp.Services\bin\Debug\netstandard2.0\CinemaApp.Common.dll
+D:\CinemaApp\CinemaApp.Services\bin\Debug\netstandard2.0\CinemaApp.Common.pdb
+D:\CinemaApp\CinemaApp.Services\obj\Debug\netstandard2.0\CinemaApp.Services.csprojAssemblyReference.cache
+D:\CinemaApp\CinemaApp.Services\obj\Debug\netstandard2.0\CinemaApp.Services.csproj.CoreCompileInputs.cache
+D:\CinemaApp\CinemaApp.Services\obj\Debug\netstandard2.0\CinemaApp.Services.AssemblyInfoInputs.cache
+D:\CinemaApp\CinemaApp.Services\obj\Debug\netstandard2.0\CinemaApp.Services.AssemblyInfo.cs
+D:\CinemaApp\CinemaApp.Services\obj\Debug\netstandard2.0\CinemaApp.Services.csproj.CopyComplete
+D:\CinemaApp\CinemaApp.Services\obj\Debug\netstandard2.0\CinemaApp.Services.dll
+D:\CinemaApp\CinemaApp.Services\obj\Debug\netstandard2.0\CinemaApp.Services.pdb
