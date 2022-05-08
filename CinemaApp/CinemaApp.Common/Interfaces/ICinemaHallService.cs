@@ -6,7 +6,7 @@ namespace CinemaApp.Common.Interfaces
 {
     public interface ICinemaHallService
     {
-        Guid AddCinemaHall(CinemaHallDto cinemaHall);
+        Guid AddCinemaHall(CinemaHallDto cinemaHallDto);
         IEnumerable<CinemaHallDtoId> GetAllCinemaHalls();
         bool DeleteCinemaHall(Guid id);
     }

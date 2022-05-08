@@ -4,6 +4,6 @@ namespace CinemaApp.Common.Dtos
 {
     public class UserDtoId : UserDto
     {
-        Guid UserId { get; set; }
+        public Guid Id { get; set; }
     }
 }

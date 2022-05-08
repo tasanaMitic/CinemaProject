@@ -7,10 +7,10 @@ namespace CinemaApp.Common.Interfaces
 {
     public interface IUserService
     {
-        Guid AddUser(UserDto user);
+        Guid AddUser(UserDto userDto);
         IEnumerable<UserDtoId> GetAllUsers(string userRole);
         IEnumerable<UserDtoId> SearchUsers(string username, string userRole);
         bool DeleteUser(Guid id);
-        void UpdateUser(Guid id, UserDto client);
+        void UpdateUser(Guid id, UserDto userDto);
     }
 }

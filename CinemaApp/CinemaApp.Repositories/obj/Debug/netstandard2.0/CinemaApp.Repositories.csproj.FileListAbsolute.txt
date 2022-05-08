@@ -1,0 +1,14 @@
+D:\CinemaProject\CinemaApp\CinemaApp.Repositories\bin\Debug\netstandard2.0\CinemaApp.Repositories.deps.json
+D:\CinemaProject\CinemaApp\CinemaApp.Repositories\bin\Debug\netstandard2.0\CinemaApp.Repositories.dll
+D:\CinemaProject\CinemaApp\CinemaApp.Repositories\bin\Debug\netstandard2.0\CinemaApp.Repositories.pdb
+D:\CinemaProject\CinemaApp\CinemaApp.Repositories\bin\Debug\netstandard2.0\CinemaApp.Common.dll
+D:\CinemaProject\CinemaApp\CinemaApp.Repositories\bin\Debug\netstandard2.0\CinemaApp.Models.dll
+D:\CinemaProject\CinemaApp\CinemaApp.Repositories\bin\Debug\netstandard2.0\CinemaApp.Common.pdb
+D:\CinemaProject\CinemaApp\CinemaApp.Repositories\bin\Debug\netstandard2.0\CinemaApp.Models.pdb
+D:\CinemaProject\CinemaApp\CinemaApp.Repositories\obj\Debug\netstandard2.0\CinemaApp.Repositories.csprojAssemblyReference.cache
+D:\CinemaProject\CinemaApp\CinemaApp.Repositories\obj\Debug\netstandard2.0\CinemaApp.Repositories.csproj.CoreCompileInputs.cache
+D:\CinemaProject\CinemaApp\CinemaApp.Repositories\obj\Debug\netstandard2.0\CinemaApp.Repositories.AssemblyInfoInputs.cache
+D:\CinemaProject\CinemaApp\CinemaApp.Repositories\obj\Debug\netstandard2.0\CinemaApp.Repositories.AssemblyInfo.cs
+D:\CinemaProject\CinemaApp\CinemaApp.Repositories\obj\Debug\netstandard2.0\CinemaApp.Repositories.csproj.CopyComplete
+D:\CinemaProject\CinemaApp\CinemaApp.Repositories\obj\Debug\netstandard2.0\CinemaApp.Repositories.dll
+D:\CinemaProject\CinemaApp\CinemaApp.Repositories\obj\Debug\netstandard2.0\CinemaApp.Repositories.pdb

@@ -1,0 +1,9 @@
+D:\CinemaProject\CinemaApp\CinemaApp.Models\bin\Debug\netstandard2.0\CinemaApp.Models.deps.json
+D:\CinemaProject\CinemaApp\CinemaApp.Models\bin\Debug\netstandard2.0\CinemaApp.Models.dll
+D:\CinemaProject\CinemaApp\CinemaApp.Models\bin\Debug\netstandard2.0\CinemaApp.Models.pdb
+D:\CinemaProject\CinemaApp\CinemaApp.Models\obj\Debug\netstandard2.0\CinemaApp.Models.csprojAssemblyReference.cache
+D:\CinemaProject\CinemaApp\CinemaApp.Models\obj\Debug\netstandard2.0\CinemaApp.Models.csproj.CoreCompileInputs.cache
+D:\CinemaProject\CinemaApp\CinemaApp.Models\obj\Debug\netstandard2.0\CinemaApp.Models.AssemblyInfoInputs.cache
+D:\CinemaProject\CinemaApp\CinemaApp.Models\obj\Debug\netstandard2.0\CinemaApp.Models.AssemblyInfo.cs
+D:\CinemaProject\CinemaApp\CinemaApp.Models\obj\Debug\netstandard2.0\CinemaApp.Models.dll
+D:\CinemaProject\CinemaApp\CinemaApp.Models\obj\Debug\netstandard2.0\CinemaApp.Models.pdb

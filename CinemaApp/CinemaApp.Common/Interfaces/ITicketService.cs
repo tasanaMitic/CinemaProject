@@ -6,7 +6,7 @@ namespace CinemaApp.Common.Interfaces
 {
     public interface ITicketService
     {
-        Guid BuyTicket(TicketDto ticket);
+        Guid BuyTicket(TicketDto ticketDtp);
         IEnumerable<TicketDtoId> GetTickets(string projection); //or username
         bool DeleteTicket(Guid id);
     }

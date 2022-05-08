@@ -22,3 +22,5 @@ D:\CinemaProject\CinemaApp\CinemaApp.Services\obj\Debug\netstandard2.0\CinemaApp
 D:\CinemaProject\CinemaApp\CinemaApp.Services\obj\Debug\netstandard2.0\CinemaApp.Services.csproj.CopyComplete
 D:\CinemaProject\CinemaApp\CinemaApp.Services\obj\Debug\netstandard2.0\CinemaApp.Services.dll
 D:\CinemaProject\CinemaApp\CinemaApp.Services\obj\Debug\netstandard2.0\CinemaApp.Services.pdb
+D:\CinemaProject\CinemaApp\CinemaApp.Services\bin\Debug\netstandard2.0\CinemaApp.Models.dll
+D:\CinemaProject\CinemaApp\CinemaApp.Services\bin\Debug\netstandard2.0\CinemaApp.Models.pdb

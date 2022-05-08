@@ -1,30 +1,39 @@
 ﻿using CinemaApp.Common.Dtos;
 using CinemaApp.Common.Interfaces;
+using CinemaApp.Models.Models;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace CinemaApp.Services.Services
 {
     public class FilmService : IFilmService
     {
-        public Guid AddFilm(FilmDto film)
+        private readonly IFilmRepository _filmRepository;
+        public FilmService(IFilmRepository filmRepository)
         {
-            throw new NotImplementedException();
+            _filmRepository = filmRepository;
+        }
+        public Guid AddFilm(FilmDto filmDto)
+        {
+            Guid id = new Guid();
+            _filmRepository.AddFilm(new Film(id, filmDto.Name, filmDto.Director, filmDto.Genre, filmDto.Duration, filmDto.ReleaseYear));
+            return id;
         }
 
         public bool DeleteFilm(Guid id)
         {
-            throw new NotImplementedException();
+            return _filmRepository.DeleteFilm(id);
         }
 
         public IEnumerable<FilmDtoId> GetAllFilms()
         {
-            throw new NotImplementedException();
+            return _filmRepository.GetAllFilms().Select(x => new FilmDtoId() { Name = x.Name, Director = x.Director, Duration = x.Duration, FilmId = x.Id, ReleaseYear = x.ReleaseYear, Genre = x.Genre.Cast<string>().ToList() });
         }
 
         public IEnumerable<FilmDtoId> SearchFilms(string criteria)
         {
-            throw new NotImplementedException();
+            return _filmRepository.SearchFilms(criteria).Select(x => new FilmDtoId() { Name = x.Name, Director = x.Director, Duration = x.Duration, FilmId = x.Id, ReleaseYear = x.ReleaseYear, Genre = x.Genre.Cast<string>().ToList() });
         }
     }
 }

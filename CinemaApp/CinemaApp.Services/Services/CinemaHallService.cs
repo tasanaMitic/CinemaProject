@@ -1,25 +1,34 @@
 ﻿using CinemaApp.Common.Dtos;
 using CinemaApp.Common.Interfaces;
+using CinemaApp.Models.Models;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace CinemaApp.Services.Services
 {
     public class CinemaHallService : ICinemaHallService
     {
-        public Guid AddCinemaHall(CinemaHallDto cinemaHall)
+        private readonly ICinemaHallRepository _cinemaHallRepository;
+        public CinemaHallService(ICinemaHallRepository cinemaHallRepository)
         {
-            throw new NotImplementedException();
+            _cinemaHallRepository = cinemaHallRepository;
+        }
+        public Guid AddCinemaHall(CinemaHallDto cinemaHallDto)
+        {
+            Guid id = new Guid();
+            _cinemaHallRepository.AddCinemaHall(new CinemaHall(id, cinemaHallDto.Name, cinemaHallDto.NumberOfSeats));
+            return id;
         }
 
         public bool DeleteCinemaHall(Guid id)
         {
-            throw new NotImplementedException();
+            return _cinemaHallRepository.DeleteCinemaHall(id);
         }
 
         public IEnumerable<CinemaHallDtoId> GetAllCinemaHalls()
         {
-            throw new NotImplementedException();
+            return _cinemaHallRepository.GetAllCinemaHalls().Select(x => new CinemaHallDtoId() { Name = x.Name, NumberOfSeats = x.NmbrOfSeats, CinemaHallId = x.Id });
         }
     }
 }
